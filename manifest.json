@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "OpenStack Eavesdrop IRC Filter",
+  "description": "This extension filters useless messages from OpenStack Eavesdrop IRC logs",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "/images/off.png",
+    "default_title": "Filter current log"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["/javascript/toggle.js"],
+    "persistent": false
+  }
+}
