@@ -5,6 +5,10 @@
   "description": "This extension filters useless messages from OpenStack Eavesdrop IRC logs",
   "version": "1.0",
 
+  "icons": {
+    "128": "icon_128.png"
+  },
+
   "browser_action": {
     "default_icon": "/images/off.png",
     "default_title": "Filter current log"
